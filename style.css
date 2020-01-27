@@ -105,6 +105,7 @@ body {
 .search-item table tr,
 .search-item table td {
     padding: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hide {
