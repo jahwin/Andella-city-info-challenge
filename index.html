@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CityHunter</title>
+</head>
+
+<body>
+    <div class="search-widget">
+        <!-- Navigation section -->
+        <div class="nav-bar">
+            <div class="nav-title">
+                <h1>CityInfo</h1>
+            </div>
+            <div class="nav-search">
+                <div class="search-input-group">
+                    <input type="text" name="search" placeholder="City or State" id="search-input" />
+                    <span class="error-label"></span>
+                </div>
+            </div>
+        </div>
+        <!-- Loading status section -->
+        <div class="hide" id="loading-status">
+            Loading ...
+        </div>
+        <span id="search-title"></span>
+        <!-- Search result section -->
+        <div id="search-result"></div>
+    </div>
+
+    <!-- modal section -->
+    <div class="hide" id="modal-widget">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>More info</h3>
+                <button class="close-btn" onClick="closeModal()">&times;</button>
+            </div>
+            <div id="modal-body">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
